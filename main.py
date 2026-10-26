@@ -36,7 +36,6 @@ while True:
             break
 
     #If the player did not win, tell them and show the secret word
-
     if won == False:
         print("You didn't guess the word in 6 guesses!\n" \
         "The secret word was: " + secret_word + ".")
